@@ -103,17 +103,21 @@ session_start();
   <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book34.jpg" alt=""></li> -->
 </ul>
 <script type="text/javascript">
+	function show_error(argument) {
+		console.log(JSON.stringify(argument),argument)
+
+	}
 	let array=[]
 	const redirection=(index)=>{location.href="./book1.php"+'?key='+index;return false};
 	window.onload=()=>
 	{
 	let i=0;
-	while(i<36){
+	while(i<25){
 		i++;
 		array.push(i);
 		let imgel=document.createElement('img')
 		imgel.src='./imgs/filenamehtml-content-holder'+i+'.jpg';
-
+		imgel.onerror=show_error;
 		let liel=document.createElement('li');
 		
 		liel.onclick = (event)=>{let index=i;redirection(imgel.src)};

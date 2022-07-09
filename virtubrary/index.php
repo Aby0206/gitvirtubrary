@@ -57,7 +57,7 @@ if (!isset($_SESSION['username'])) {
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="active " href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <!--<li><a href="about.html">About</a></li>-->
         <!--  <li><a href="services.html">Services</a></li>-->
           <!-- <li><a href="login.php">Login</a></li> -->
 
@@ -102,7 +102,7 @@ if (!isset($_SESSION['username'])) {
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Virtubrary</span></h2>
           <p class="animate__animated animate__fadeInUp">Here we introduce a Virtual Library System, Which provides more experienced tour to each corner of a library.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        <!--  <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>-->
         </div>
       </div>
 
@@ -148,7 +148,7 @@ if (!isset($_SESSION['username'])) {
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
-              <div class="icon"><i class=ajcelogo.png></i></div>
+              <div class="icon"><img style="max-width: 120%;margin-top: -25px;margin-left: -5px;" src="./assets/img/ajcelogo.png"></img></div>
               <h4 class="title"><a href="./centralLib/index.php">AJCE Central Library</a></h4>
               <p class="description">Virtual tour and book selection tool for Amal jyothi Central Library</p>
             </div>

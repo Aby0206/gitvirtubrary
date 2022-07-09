@@ -1,683 +1,960 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.13" apprev="18080" start="node1">
+<tour start="node1" apprev="18080" appversion="6.1.13">
   <panorama id="node1">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:34" tags="LIB ph2" title="DCIM\100GOPRO\GS__0083.JPG" description="" longitude="" latitude="" heading="0" nodeid="node1" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot customimageheight="40" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" customimagewidth="40" target="-6.6/-3.9/70.0" pan="-342.88" distance3D="381.623" title="DCIM\100GOPRO\GS__0084.JPG" description="" url="{node2}" id="Point01" skinid="ht_node" tilt="-2.1" use3D="0" fov="6"/>
-      <hotspot target="_blank" pan="-61.12" title="" description="" url="google.com" id="Point02" skinid="ht_url" tilt="-9.91"/>
+    <userdata source="" nodeid="node1" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:34" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0083.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-6.6/-3.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-2.1" pan="-342.88" use3D="0" url="{node2}" id="Point01" skinid="ht_node" fov="6" distance3D="381.623" title="DCIM\100GOPRO\GS__0084.JPG" customimagewidth="40"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:37" tags="LIB ph2" title="DCIM\100GOPRO\GS__0084.JPG" description="" longitude="" latitude="" heading="0" nodeid="node2" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-172.6/-5.9/70.0" pan="-179.23" title="DCIM\100GOPRO\GS__0083.JPG" description="" url="{node1}" id="Point01" skinid="ht_node" tilt="-9.04"/>
-      <hotspot target="-29.8/-5.6/70.0" pan="-7.82" title="DCIM\100GOPRO\GS__0086.JPG" description="" url="{node4}" id="Point02" skinid="ht_node" tilt="-4.17"/>
+    <userdata source="" nodeid="node2" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:37" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0084.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-172.6/-5.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="46" tilt="-9.04" pan="-179.23" use3D="0" url="{node1}" id="Point01" skinid="ht_node" fov="10" distance3D="262.891" title="DCIM\100GOPRO\GS__0083.JPG" customimagewidth="46"/>
+      <hotspot target="-29.8/-5.6/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="49" tilt="-4.17" pan="-7.82" use3D="0" url="{node4}" id="Point02" skinid="ht_node" fov="10" distance3D="280.036" title="DCIM\100GOPRO\GS__0086.JPG" customimagewidth="49"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:45" tags="LIB ph2" title="DCIM\100GOPRO\GS__0086.JPG" description="" longitude="" latitude="" heading="0" nodeid="node4" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="0.3/-3.0/70.0" pan="-30.86" title="DCIM\100GOPRO\GS__0087.JPG" description="" url="{node5}" id="Point01" skinid="ht_node" tilt="-7.21"/>
-      <hotspot target="-178.2/-8.9/70.0" pan="-181.33" title="DCIM\100GOPRO\GS__0084.JPG" description="" url="{node2}" id="Point02" skinid="ht_node" tilt="-7.65"/>
+    <userdata source="" nodeid="node4" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:45" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0086.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="0.3/-3.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="46" tilt="-7.22" pan="-30.77" use3D="0" url="{node5}" id="Point01" skinid="ht_node" fov="10" distance3D="262.891" title="DCIM\100GOPRO\GS__0087.JPG" customimagewidth="46"/>
+      <hotspot target="-178.2/-8.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="45" tilt="-7.65" pan="-181.33" use3D="0" url="{node2}" id="Point02" skinid="ht_node" fov="10" distance3D="257.176" title="DCIM\100GOPRO\GS__0084.JPG" customimagewidth="45"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:47" tags="LIB ph2" title="DCIM\100GOPRO\GS__0087.JPG" description="" longitude="" latitude="" heading="0" nodeid="node5" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-170.3/-5.5/70.0" pan="-190.53" title="DCIM\100GOPRO\GS__0086.JPG" description="" url="{node4}" id="Point01" skinid="ht_node" tilt="-7.25"/>
-      <hotspot customimageheight="40" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" customimagewidth="40" target="81.3/2.1/70.0" pan="-95.21" distance3D="228.601" title="DCIM\100GOPRO\GS__0088.JPG" description="" url="{node6}" id="Point02" skinid="ht_node" tilt="-16.08" use3D="0" fov="10"/>
-      <hotspot target="0.0/0.0/70.0" pan="-63.77" title="DCIM\100GOPRO\GS__0091.JPG" description="" url="{node9}" id="Point03" skinid="ht_node" tilt="-2.07"/>
-      <hotspot customimageheight="40" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" customimagewidth="40" target="84.7/-2.0/70.0" pan="-93.81" distance3D="228.601" title="DCIM\100GOPRO\GS__0089.JPG" description="" url="{node7}" id="Point04" skinid="ht_node" tilt="-9.23" use3D="0" fov="10"/>
-      <hotspot target="_blank" pan="-357.96" title="" description="" url="" id="Point05" skinid="ht_url" tilt="-5.26"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+    <userdata source="" nodeid="node5" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:47" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0087.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-170.3/-5.5/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-7.25" pan="-190.53" use3D="0" url="{node4}" id="Point01" skinid="ht_node" fov="10" distance3D="228.601" title="DCIM\100GOPRO\GS__0086.JPG" customimagewidth="40"/>
+      <hotspot target="81.3/2.1/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-16.08" pan="-95.21" use3D="0" url="{node6}" id="Point02" skinid="ht_node" fov="10" distance3D="228.601" title="DCIM\100GOPRO\GS__0088.JPG" customimagewidth="40"/>
+      <hotspot target="0.0/0.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="45" tilt="-1.85" pan="-63.77" use3D="0" url="{node9}" id="Point03" skinid="ht_node" fov="10" distance3D="257.176" title="DCIM\100GOPRO\GS__0091.JPG" customimagewidth="45"/>
+      <hotspot target="84.7/-2.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-9.23" pan="-93.81" use3D="0" url="{node7}" id="Point04" skinid="ht_node" fov="10" distance3D="228.601" title="DCIM\100GOPRO\GS__0089.JPG" customimagewidth="40"/>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-107.56/6.18|-116.61/9.52|-116.88/-19.74|-108.04/-13.22</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-9.09/5.87|-18.94/5.7|-18.97/-14.07|-9.36/-14.74</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-19.3/5.77|-27.98/5.14|-28.39/-13.05|-19.64/-14.06</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-28.63/5.42|-36.12/5.01|-36.38/-12.12|-28.85/-13.26</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-36.52/4.75|-42.79/4.33|-42.94/-11.1|-36.72/-12.19</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-75.37/-3.05|-81.78/-2.65|-82.19/4.84|-75.58/4.72</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
         <polystring>-101.21/-8.11|-104.76/-10.45|-104.88/5.19|-101.76/3.9</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:54" tags="LIB ph2" title="DCIM\100GOPRO\GS__0088.JPG" description="" longitude="" latitude="" heading="0" nodeid="node6" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="88.2/-2.0/70.0" pan="-93.67" title="DCIM\100GOPRO\GS__0087.JPG" description="" url="{node5}" id="Point01" skinid="ht_node" tilt="-22.15"/>
-      <hotspot target="87.3/-1.3/70.0" pan="-278.16" title="DCIM\100GOPRO\GS__0089.JPG" description="" url="{node7}" id="Point02" skinid="ht_node" tilt="-22.39"/>
-      <hotspot target="0.0/0.0/70.0" pan="-211.6" title="DCIM\100GOPRO\GS__0091.JPG" description="" url="{node9}" id="Point03" skinid="ht_node" tilt="-9.11"/>
-      <hotspot target="85.6/-3.9/70.0" pan="-277.01" title="DCIM\100GOPRO\GS__0090.JPG" description="" url="{node8}" id="Point04" skinid="ht_node" tilt="-11.17"/>
-      <polyhotspot target="_blank" title="Shelf G01" description="https://wikipedia.org" url="" id="URL-WIDE">
-        <polystring>-331.86/18.53|-35.89/19.29|-36.3/-35.26|-332.24/-34.97|-332.2/-32.47</polystring>
+    <userdata source="" nodeid="node6" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:54" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0088.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="88.2/-2.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="48" tilt="-22.15" pan="-93.67" use3D="0" url="{node5}" id="Point01" skinid="ht_node" fov="10" distance3D="274.321" title="DCIM\100GOPRO\GS__0087.JPG" customimagewidth="48"/>
+      <hotspot target="87.3/-1.3/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="51" tilt="-22.39" pan="-278.16" use3D="0" url="{node7}" id="Point02" skinid="ht_node" fov="10" distance3D="291.466" title="DCIM\100GOPRO\GS__0089.JPG" customimagewidth="51"/>
+      <hotspot target="0.0/0.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="49" tilt="-8.08" pan="-217.2" use3D="0" url="{node9}" id="Point03" skinid="ht_node" fov="10" distance3D="280.036" title="DCIM\100GOPRO\GS__0091.JPG" customimagewidth="49"/>
+      <hotspot target="85.6/-3.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-11.17" pan="-277.01" use3D="0" url="{node8}" id="Point04" skinid="ht_node" fov="10" distance3D="228.601" title="DCIM\100GOPRO\GS__0090.JPG" customimagewidth="40"/>
+      <polyhotspot target="_blank" description="" url="http://localhost:81/virtubrary/showbooks/showbooks.php" id="URL-WIDE" title="Shelf G01">
+        <polystring>-331.86/18.53|-35.89/19.29|-36.1/16.31|-2.67/19.53|-332.18/16.56</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G04">
         <polystring>-157.95/5.15|-166.16/5.08|-166.36/-13.77|-157.58/-13.1</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G05">
         <polystring>-167.28/5.34|-177.27/5.51|-177.01/-15.01|-167.13/-14.39</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G06">
         <polystring>-177.84/5.26|-187.41/5.33|-187.97/-15.03|-177.29/-14.88</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G06">
         <polystring>-247.66/8.7|-259.03/9.13|-258.8/-5.39|-247.42/-5.3</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="https://google.com" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="http://localhost:81/virtubrary/showbooks/showbooks.php" id="URL-WIDE" title="Shelf G02">
         <polystring>-296.7/8.16|-311/13.14|-311.23/-25.39|-296.58/-16.18</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-30.54/16.31|-35.62/16.13|-36.41/-35.77|-31.86/-36.67</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-332.14/16.11|-333.66/16.16|-333.89/-34.65|-332.22/-35.03</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-334.13/-14.63|-2.94/-17.03|-2.82/-37.58|-334.25/-33.08</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-10.76/-17.61|-10.57/-37.11|-31.37/-33.91|-30.76/-15.78</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-17.41/-3.92|-17.53/-16.61|-30.82/-15.22|-30.93/-3.79</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-16.34/18.52|-15.99/6.34|-24.28/5.84|-30.49/5.35|-30.15/16.64</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-24.28/5.84|-24.59/-3.76|-30.9/-3.35|-30.22/5.15</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-350.32/-3.84|-349.8/-16.27|-3.2/-16.66|-2.67/-3.67</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-356.02/18.51|-4.1/19.32|-3.53/8.74|-355.6/9.03</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G03">
+        <polystring>-153.95/4.62|-157.07/4.95|-157.36/-13.02|-154.01/-13.02</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-334.18/15.4|-334.88/15.69|-335.13/12.98|-335.29/8.53|-334.53/8.37</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-335.12/15.55|-336.23/15.75|-336.33/15.24|-336.26/8.61|-335.42/8.33</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-336.33/15.24|-337.56/15.68|-337.63/8.62|-336.49/8.57</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-337.82/16.13|-339.9/16.34|-340.07/8.58|-337.87/8.59</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-340.16/16.15|-341.06/16.4|-341.37/13.25|-341.27/8.73|-340.22/8.78</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-341.28/16.2|-342.36/16.25|-342.62/8.8|-341.35/8.77</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="https://wikipedia.org" url="" id="URL-WIDE" title="book ttl">
+        <polystring>-342.68/16.87|-347/17.17|-347.05/13.83|-346.94/9|-342.74/8.77</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-347.3/17.1|-348.54/17.32|-348.83/13.38|-348.6/9.18|-347.07/9.02</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-348.86/17.89|-350.62/18.09|-350.16/9.22|-348.69/9.1</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-350.83/17.98|-352.02/18.06|-351.6/9.25|-350.24/9.02</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-352.4/18.07|-353.42/18.14|-353.09/9.4|-351.68/9.17</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-353.72/18.27|-355.35/18.26|-355/9.46|-353.34/9.36</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-4.3/17.04|-4.9/17.08|-5.12/9.58|-4.5/9.5</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-5.28/17.2|-6.18/17.11|-6.25/9.78|-5.42/9.62</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-6.29/17|-7.5/17.12|-7.55/9.68|-6.42/9.69</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-7.55/17.89|-8.88/18.1|-8.8/9.75|-7.59/9.63</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-8.92/18.06|-10.11/18.02|-10.26/14.07|-10.17/9.59|-8.84/9.65</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-10.28/17.54|-11.85/17.25|-11.72/9.67|-10.23/9.62</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-11.93/17.17|-12.81/17.14|-12.71/9.69|-11.68/9.59</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-12.9/17.21|-14.61/16.98|-14.6/9.64|-12.8/9.65</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-14.79/17.41|-15.62/17.36|-15.37/9.62|-14.55/9.6</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-334.42/4.83|-336.24/4.86|-336.51/-3.19|-334.61/-3.13</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-336.52/4.9|-338.16/4.93|-338.23/-3.13|-336.55/-3.11</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-338.2/5.05|-339.57/4.91|-339.56/-3.26|-338.35/-3.25</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-339.65/4.95|-341.15/5|-341.4/-3.23|-339.6/-3.14</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-341.31/5.01|-342.83/5.14|-342.83/-3.4|-341.43/-3.36</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-342.95/4.98|-344.18/5.19|-344.43/-3.41|-342.91/-3.32</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-344.51/5.15|-345.96/5.32|-346.08/-3.37|-344.55/-3.62</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-346.16/4.91|-347.77/4.99|-347.69/-3.21|-346.2/-3.21</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-347.86/5.11|-349.05/5.03|-348.72/-3.45|-347.77/-3.41</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-349.09/4.95|-350.99/5.06|-351.11/-3.65|-348.93/-3.62</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-351.19/4.98|-352.26/5.09|-352.22/-3.57|-351.15/-3.53</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-352.26/5.18|-353.44/5.21|-353.33/-3.6|-352.22/-3.61</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-353.44/5.08|-354.54/5.15|-354.47/-3.71|-353.37/-3.68</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-354.62/5.11|-355.84/5.3|-355.85/-3.7|-354.55/-3.71</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-356.04/5.01|-359.55/4.6|-359.04/-1.61|-359.01/-3.06|-355.93/-3.54</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-4.18/5.2|-5.94/5.31|-6.1/-3.28|-4.69/-3.58</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
+        <polystring>-359.54/7.53|-359.62/4.67|-359.21/-0.78|-359.21/-3.41|-4.57/-3.65|-3.92/5.48|-4.79/8.77</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-6.06/5.26|-7.41/5.33|-7.6/-3.39|-6.25/-3.44</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-7.7/5.37|-9.08/5.35|-9.26/-3.42|-7.68/-3.39</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-9.12/5.52|-10.65/5.37|-10.79/-3.56|-9.26/-3.46</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-10.65/5.21|-12.17/5.18|-12.43/-3.54|-10.71/-3.56</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-12.25/5.26|-13.67/5.24|-14/-3.4|-12.43/-3.5</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-13.75/5.27|-15.24/5.24|-15.56/-3.54|-14.04/-3.56</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-15.4/5.19|-16.58/5.18|-17.05/-3.28|-15.52/-3.45</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-16.86/5.17|-18.39/5.11|-18.57/-3.3|-17.17/-3.28</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-18.63/5.1|-19.83/5.2|-20.03/-3.25|-18.53/-3.34</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-20.03/5.08|-21.25/5.14|-21.47/-3.23|-20.11/-3.33</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-21.33/5.09|-22.58/5.07|-22.94/-3.21|-21.55/-3.39</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-22.7/5.02|-24.12/5.03|-24.5/-3.26|-23.02/-3.28</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-4.68/-19.57|-9.12/-20.03|-9.06/-26.81|-4.88/-26.93</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-334.37/-6.84|-336.27/-7.12|-336.59/-14.46|-334.38/-14.24</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-336.39/-7.12|-337.71/-7.15|-337.87/-14.76|-336.55/-14.58</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-337.79/-7.19|-339.13/-7.3|-339.24/-7.5|-339.21/-14.96|-337.87/-14.76</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-339.24/-7.5|-340.63/-7.48|-340.39/-15.04|-339.21/-15.01</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-340.67/-7.6|-341.94/-7.61|-341.88/-15.11|-340.39/-15.12</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-342.07/-7.58|-343.59/-7.63|-343.45/-15.43|-341.87/-15.32</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-343.71/-7.67|-345.12/-7.72|-344.82/-15.65|-343.41/-15.55</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-345.2/-7.72|-346.81/-7.72|-346.4/-15.73|-344.77/-15.6</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-346.81/-7.72|-348.38/-7.67|-347.91/-15.81|-346.36/-15.73</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-348.51/-7.87|-350/-8.03|-349.58/-16|-347.95/-15.89</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-4.13/-7.89|-5.53/-7.81|-5.8/-16.31|-4.51/-16.35</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-5.57/-7.81|-6.8/-7.8|-7.09/-16.39|-5.88/-16.31</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-6.97/-7.92|-8.2/-7.92|-8.25/-16.25|-7.13/-16.39</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-8.17/-7.76|-9.36/-7.74|-9.35/-16.23|-8.25/-16.39</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-9.28/-7.86|-10.38/-7.76|-10.49/-16.19|-9.43/-16.23</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-10.42/-7.76|-11.55/-7.74|-11.59/-16.27|-10.4/-16.19</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-11.51/-7.78|-12.55/-7.75|-12.63/-16.3|-11.55/-16.39</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-12.69/-7.85|-13.97/-7.73|-13.83/-16.13|-12.62/-16.25</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-14.09/-7.84|-14.87/-7.81|-14.91/-15.97|-13.8/-16.25</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-14.94/-7.73|-16.01/-7.73|-15.95/-15.97|-14.88/-16.05</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-16.09/-7.69|-17.27/-7.76|-17.17/-15.91|-15.99/-16.01</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="">
+        <polystring>-4.61/-28.87|-10.54/-28.82|-10.41/-35.68|-4.61/-36.27</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:56" tags="LIB ph2" title="DCIM\100GOPRO\GS__0089.JPG" description="" longitude="" latitude="" heading="0" nodeid="node7" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-95.1/-1.5/70.0" pan="-80.36" title="DCIM\100GOPRO\GS__0088.JPG" description="" url="{node6}" id="Point01" skinid="ht_node" tilt="-23.49"/>
-      <hotspot target="88.8/-0.1/70.0" pan="-85.65" title="DCIM\100GOPRO\GS__0087.JPG" description="" url="{node5}" id="Point02" skinid="ht_node" tilt="-10.27"/>
-      <hotspot target="87.8/-2.7/70.0" pan="-276.69" title="DCIM\100GOPRO\GS__0090.JPG" description="" url="{node8}" id="Point03" skinid="ht_node" tilt="-21.86"/>
-      <hotspot target="0.0/0.0/70.0" pan="-148.88" title="DCIM\100GOPRO\GS__0091.JPG" description="" url="{node9}" id="Point04" skinid="ht_node" tilt="-9.56"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+    <userdata source="" nodeid="node7" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:56" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0089.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-95.1/-1.5/70.0" description="" tilt="-23.49" pan="-80.36" url="{node6}" id="Point01" skinid="ht_node" title="DCIM\100GOPRO\GS__0088.JPG"/>
+      <hotspot target="88.8/-0.1/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="44" tilt="-10.27" pan="-85.65" use3D="0" url="{node5}" id="Point02" skinid="ht_node" fov="10" distance3D="251.461" title="DCIM\100GOPRO\GS__0087.JPG" customimagewidth="44"/>
+      <hotspot target="87.8/-2.7/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="41" tilt="-21.57" pan="-276.7" use3D="0" url="{node8}" id="Point03" skinid="ht_node" fov="10" distance3D="234.316" title="DCIM\100GOPRO\GS__0090.JPG" customimagewidth="41"/>
+      <hotspot target="0.0/0.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="46" tilt="-9.56" pan="-148.88" use3D="0" url="{node9}" id="Point04" skinid="ht_node" fov="10" distance3D="262.891" title="DCIM\100GOPRO\GS__0091.JPG" customimagewidth="46"/>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G09">
         <polystring>-290.39/7.35|-302.3/10.88|-303.11/-21.2|-291.41/-14.16</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G02">
         <polystring>-330.61/17.75|-29.79/18.53|-29.71/-32.58|-330.82/-32.32</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G01">
         <polystring>-52.53/13.04|-67.6/8.12|-67.8/-16.66|-51.77/-25.26</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G08">
         <polystring>-250.82/12.66|-256.64/9.3|-257.99/-25.31|-252.7/-33.51</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G07">
         <polystring>-214.63/15.42|-231.16/21.11|-230.71/-15.39|-213.07/-11.17</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G06">
         <polystring>-141.55/3.91|-148.55/3.95|-148.49/-7.59|-141.49/-7.25</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G05">
         <polystring>-135.43/3.68|-141.13/3.91|-141.26/-7.32|-135.37/-8.79</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G04">
         <polystring>-130.17/3.2|-134.73/3.49|-134.82/-8.7|-132.24/-9.28|-132.71/-10.75|-130/-10.49</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G03">
         <polystring>-129.68/-10.4|-125.78/-9.55|-125.93/2.99|-129.99/3.28</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 14:58" tags="LIB ph2" title="DCIM\100GOPRO\GS__0090.JPG" description="" longitude="" latitude="" heading="0" nodeid="node8" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-89.0/-0.3/70.0" pan="-87.01" title="DCIM\100GOPRO\GS__0089.JPG" description="" url="{node7}" id="Point01" skinid="ht_node" tilt="-20.94"/>
-      <hotspot target="-98.8/-1.6/70.0" pan="-88.46" title="DCIM\100GOPRO\GS__0088.JPG" description="" url="{node6}" id="Point02" skinid="ht_node" tilt="-10.1"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+    <userdata source="" nodeid="node8" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 14:58" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0090.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-89.0/-0.3/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="48" tilt="-20.94" pan="-87.01" use3D="0" url="{node7}" id="Point01" skinid="ht_node" fov="10" distance3D="274.321" title="DCIM\100GOPRO\GS__0089.JPG" customimagewidth="48"/>
+      <hotspot target="-98.8/-1.6/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="44" tilt="-10.1" pan="-88.46" use3D="0" url="{node6}" id="Point02" skinid="ht_node" fov="10" distance3D="251.461" title="DCIM\100GOPRO\GS__0088.JPG" customimagewidth="44"/>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G02">
         <polystring>-63.72/11.2|-73.5/7.17|-73.88/-15.4|-64.03/-23.17</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G08">
         <polystring>-119.8/13|-139.18/18.87|-138.08/-44.25|-120.45/-32.38</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly04">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G10">
         <polystring>-288.27/11.78|-302.3/18.78|-302.79/-27.48|-288.82/-15.77</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-0.75/19.6|-2.2/19.4|-2.03/10.33|-1.09/10.34</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly05">
+      <polyhotspot target="_blank" description="" url="" id="Poly05" title="">
         <polystring>-11.72/19.09|-13.18/19.25|-12.27/10.57|-11.27/10.61</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G09">
+        <polystring>-324.74/20.09|-35.17/20.04|-36.09/-37.9|-324.38/-38.45</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:03" tags="LIB ph2" title="DCIM\100GOPRO\GS__0091.JPG" description="" longitude="" latitude="" heading="0" nodeid="node9" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="131.2/-9.9/70.0" pan="-58.49" title="DCIM\100GOPRO\GS__0087.JPG" description="" url="{node5}" id="Point01" skinid="ht_node" tilt="-16.47"/>
-      <hotspot target="0.0/0.0/70.0" pan="-23.41" title="DCIM\100GOPRO\GS__0088.JPG" description="" url="{node6}" id="Point02" skinid="ht_node" tilt="-21.45"/>
-      <hotspot target="0.0/0.0/70.0" pan="-340.82" title="DCIM\100GOPRO\GS__0089.JPG" description="" url="{node7}" id="Point03" skinid="ht_node" tilt="-22.96"/>
-      <hotspot target="-0.4/-0.5/70.0" pan="-308.82" title="DCIM\100GOPRO\GS__0090.JPG" description="" url="{node8}" id="Point04" skinid="ht_node" tilt="-15.31"/>
-      <polyhotspot target="_blank" title="" description="www.google.com" url="" id="URL-WIDE">
+    <userdata source="" nodeid="node9" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:03" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0091.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="131.2/-9.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="44" tilt="-16.47" pan="-58.49" use3D="0" url="{node5}" id="Point01" skinid="ht_node" fov="10" distance3D="251.461" title="DCIM\100GOPRO\GS__0087.JPG" customimagewidth="44"/>
+      <hotspot target="0.0/0.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="46" tilt="-21.45" pan="-23.41" use3D="0" url="{node6}" id="Point02" skinid="ht_node" fov="10" distance3D="262.891" title="DCIM\100GOPRO\GS__0088.JPG" customimagewidth="46"/>
+      <hotspot target="0.0/0.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="46" tilt="-22.96" pan="-340.82" use3D="0" url="{node7}" id="Point03" skinid="ht_node" fov="10" distance3D="262.891" title="DCIM\100GOPRO\GS__0089.JPG" customimagewidth="46"/>
+      <hotspot target="-0.4/-0.5/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="41" tilt="-15.31" pan="-308.82" use3D="0" url="{node8}" id="Point04" skinid="ht_node" fov="10" distance3D="234.316" title="DCIM\100GOPRO\GS__0090.JPG" customimagewidth="41"/>
+      <hotspot target="" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="47" tilt="0.48" pan="-99.32" use3D="0" url="{node19}" id="Point05" skinid="ht_node" fov="10" distance3D="268.606" title="" customimagewidth="47"/>
+      <polyhotspot target="_blank" description="www.google.com" url="" id="URL-WIDE" title="Shelf G01">
         <polystring>-10.79/6.17|-33.19/5.29|-33.41/-16.28|-10.55/-18.43</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="www.google.com" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="www.google.com" url="" id="URL-WIDE" title="Shelf G02">
         <polystring>-332.15/5.39|-354.43/6.29|-355.35/-18.95|-332.42/-16.41</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G07">
         <polystring>-274.35/10.05|-294.56/9.59|-295.82/-13.33|-275.51/-14.58</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G06">
         <polystring>-133.09/2.69|-145.3/2.68|-144.7/-31.49|-132.44/-26.14</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G05">
         <polystring>-124.41/2.74|-132.74/2.81|-131.48/-26.4|-123.15/-22.28</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G09">
         <polystring>-306.61/-10.65|-317.02/-12.89|-316.95/4.36|-306.14/3.33</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G04">
         <polystring>-122.49/-21.92|-117.09/-18.57|-117.72/1.93|-123.34/2.34</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="URL-WIDE">
+      <polyhotspot target="_blank" description="" url="" id="URL-WIDE" title="Shelf G03">
         <polystring>-113.56/1.63|-117.46/1.97|-116.86/-18.4|-112.89/-15.91</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
-  <panorama id="node11">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+  <panorama id="node19">
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1436" width="1436" leveltilesize="510" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1436" width="1436" predecode="0" preload="0"/>
+      <level height="718" width="718" predecode="0" preload="0"/>
+      <level height="359" width="359" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-57.577" pan="-180" fovpixel="2"/>
+      <max tilt="57.577" fovfisheye="360" pan="180" fovstereographic="270" fov="120"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:12" tags="LIB ph2" title="DCIM\100GOPRO\GS__0093.JPG" description="" longitude="" latitude="" heading="0" nodeid="node11" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-87.3/-7.4/70.0" pan="-19.08" title="DCIM\100GOPRO\GS__0094.JPG" description="" url="{node12}" id="Point01" skinid="ht_node" tilt="-15.6"/>
-      <hotspot target="-91.9/-9.2/70.0" pan="-22.61" title="DCIM\100GOPRO\GS__0095.JPG" description="" url="{node13}" id="Point02" skinid="ht_node" tilt="-12.12"/>
-      <hotspot target="-93.8/-4.1/70.0" pan="-26.04" title="DCIM\100GOPRO\GS__0096.JPG" description="" url="{node14}" id="Point03" skinid="ht_node" tilt="-9.06"/>
-      <hotspot target="-98.3/-9.3/70.0" pan="-29.29" title="DCIM\100GOPRO\GS__0097.JPG" description="" url="{node15}" id="Point04" skinid="ht_node" tilt="-6.62"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+    <userdata source="" nodeid="node19" customnodeid="" description="" copyright="" info="" datetime="" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="35" tilt="-8.69" pan="-351.35" use3D="0" url="{node9}" id="Point01" skinid="ht_node" fov="10" distance3D="200.026" title="DCIM\100GOPRO\GS__0091.JPG" customimagewidth="35"/>
+      <hotspot target="" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="37" tilt="7.24" pan="-14.15" use3D="0" url="{node11}" id="Point02" skinid="ht_node" fov="10" distance3D="211.456" title="DCIM\100GOPRO\GS__0093.JPG" customimagewidth="37"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
+    </view>
+    <userdata source="" nodeid="node11" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:12" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0093.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-87.3/-7.4/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="41" tilt="-15.6" pan="-19.08" use3D="0" url="{node12}" id="Point01" skinid="ht_node" fov="10" distance3D="234.316" title="DCIM\100GOPRO\GS__0094.JPG" customimagewidth="41"/>
+      <hotspot target="-91.9/-9.2/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="42" tilt="-12.12" pan="-22.61" use3D="0" url="{node13}" id="Point02" skinid="ht_node" fov="10" distance3D="240.031" title="DCIM\100GOPRO\GS__0095.JPG" customimagewidth="42"/>
+      <hotspot target="-93.8/-4.1/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="37" tilt="-9.06" pan="-26.04" use3D="0" url="{node14}" id="Point03" skinid="ht_node" fov="10" distance3D="211.456" title="DCIM\100GOPRO\GS__0096.JPG" customimagewidth="37"/>
+      <hotspot target="-98.3/-9.3/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="37" tilt="-6.62" pan="-29.29" use3D="0" url="{node15}" id="Point04" skinid="ht_node" fov="10" distance3D="211.456" title="DCIM\100GOPRO\GS__0097.JPG" customimagewidth="37"/>
+      <hotspot target="" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="48" tilt="-12.14" pan="-74.73" use3D="0" url="{node19}" id="Point05" skinid="ht_node" fov="10" distance3D="274.321" title="" customimagewidth="48"/>
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-350.35/6.98|-350.11/-16.5|-357.97/-14.42|-357.82/6.26</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+      <polyhotspot target="_blank" description="" url="" id="Poly02" title="">
         <polystring>-358.69/6.23|-4.26/5.47|-4.54/-12.61|-358.57/-14.4</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="Poly03" title="">
         <polystring>-4.98/-12.25|-4.82/5.33|-9.1/4.73|-9.3/-10.88</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:14" tags="LIB ph2" title="DCIM\100GOPRO\GS__0094.JPG" description="" longitude="" latitude="" heading="0" nodeid="node12" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="-173.2/-2.9/70.0" pan="-247.98" title="DCIM\100GOPRO\GS__0093.JPG" description="" url="{node11}" id="Point01" skinid="ht_node" tilt="-13.24"/>
-      <hotspot target="-91.0/-3.4/70.0" pan="-82.26" title="DCIM\100GOPRO\GS__0095.JPG" description="" url="{node13}" id="Point02" skinid="ht_node" tilt="-27.83"/>
-      <hotspot target="-91.7/-5.3/70.0" pan="-84.6" title="DCIM\100GOPRO\GS__0096.JPG" description="" url="{node14}" id="Point03" skinid="ht_node" tilt="-18.06"/>
-      <hotspot target="-100.5/-8.0/70.0" pan="-85.86" title="DCIM\100GOPRO\GS__0097.JPG" description="" url="{node15}" id="Point04" skinid="ht_node" tilt="-11.44"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+    <userdata source="" nodeid="node12" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:14" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0094.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="-173.2/-2.9/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="45" tilt="-13.24" pan="-247.98" use3D="0" url="{node11}" id="Point01" skinid="ht_node" fov="10" distance3D="257.176" title="DCIM\100GOPRO\GS__0093.JPG" customimagewidth="45"/>
+      <hotspot target="-91.0/-3.4/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="54" tilt="-27.83" pan="-82.26" use3D="0" url="{node13}" id="Point02" skinid="ht_node" fov="10" distance3D="308.611" title="DCIM\100GOPRO\GS__0095.JPG" customimagewidth="54"/>
+      <hotspot target="-91.7/-5.3/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="52" tilt="-18.51" pan="-83.53" use3D="0" url="{node14}" id="Point03" skinid="ht_node" fov="10" distance3D="297.181" title="DCIM\100GOPRO\GS__0096.JPG" customimagewidth="52"/>
+      <hotspot target="-100.5/-8.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="48" tilt="-11.44" pan="-85.86" use3D="0" url="{node15}" id="Point04" skinid="ht_node" fov="10" distance3D="274.321" title="DCIM\100GOPRO\GS__0097.JPG" customimagewidth="48"/>
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-312.14/10.4|-329.6/13.16|-329.83/-32.33|-312.14/-26.32</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+      <polyhotspot target="_blank" description="" url="" id="Poly02" title="">
         <polystring>-332.78/-32.55|-332.46/13.18|-357.1/14.97|-357.55/-35.54</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="Poly03" title="">
         <polystring>-0.92/14.43|-24.44/13.34|-25.49/-32.06|-359.83/-35.34</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly04">
+      <polyhotspot target="_blank" description="" url="" id="Poly04" title="">
         <polystring>-26.89/12.9|-43.17/10.29|-43.94/-26.58|-27.56/-32.07</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly05">
+      <polyhotspot target="_blank" description="" url="" id="Poly05" title="">
         <polystring>-45.11/-24.93|-44.76/9.86|-54.78/8.27|-55.19/-20.65</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly06">
+      <polyhotspot target="_blank" description="" url="" id="Poly06" title="">
         <polystring>-236.99/11.32|-244.91/8.52|-245.48/-24.22|-238.15/-29.63</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly07">
+      <polyhotspot target="_blank" description="" url="" id="Poly07" title="">
         <polystring>-219.44/15.87|-236.28/11.81|-237.34/-30.55|-220.99/-39.89</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly08">
+      <polyhotspot target="_blank" description="" url="" id="Poly08" title="">
         <polystring>-185.78/20.96|-217.66/15.25|-220.19/-40.19|-185.82/-48.64</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly09">
+      <polyhotspot target="_blank" description="" url="" id="Poly09" title="">
         <polystring>-145/18.79|-183.4/20.62|-183.45/-48.72|-143.73/-43.99</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly10">
+      <polyhotspot target="_blank" description="" url="" id="Poly10" title="">
         <polystring>-142.03/-41.8|-122.52/-32.4|-123.86/12.95|-143.47/18.24</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly11">
+      <polyhotspot target="_blank" description="" url="" id="Poly11" title="">
         <polystring>-112.05/-24.47|-121.75/-32.63|-123.01/13|-112.79/9.71</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly12">
+      <polyhotspot target="_blank" description="" url="" id="Poly12" title="">
         <polystring>-300.76/24.11|-300.65/18.71|-230.98/17.57|-230.31/22.64</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly13">
+      <polyhotspot target="_blank" description="" url="" id="Poly13" title="">
         <polystring>-299.39/18.81|-297.15/17.29|-233.75/16.23|-231.57/17.36</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:20" tags="LIB ph2" title="DCIM\100GOPRO\GS__0095.JPG" description="" longitude="" latitude="" heading="0" nodeid="node13" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="90.8/-2.4/70.0" pan="-280.98" title="DCIM\100GOPRO\GS__0094.JPG" description="" url="{node12}" id="Point01" skinid="ht_node" tilt="-32.53"/>
-      <hotspot target="-172.6/-1.6/70.0" pan="-258" title="DCIM\100GOPRO\GS__0093.JPG" description="" url="{node11}" id="Point02" skinid="ht_node" tilt="-8.95"/>
-      <hotspot target="-90.9/-3.8/70.0" pan="-86.82" title="DCIM\100GOPRO\GS__0096.JPG" description="" url="{node14}" id="Point03" skinid="ht_node" tilt="-23.75"/>
-      <hotspot target="-101.5/-8.4/70.0" pan="-88.76" title="DCIM\100GOPRO\GS__0097.JPG" description="" url="{node15}" id="Point04" skinid="ht_node" tilt="-11.97"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+    <userdata source="" nodeid="node13" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:20" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0095.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="90.8/-2.4/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="50" tilt="-32.53" pan="-280.98" use3D="0" url="{node12}" id="Point01" skinid="ht_node" fov="10" distance3D="285.751" title="DCIM\100GOPRO\GS__0094.JPG" customimagewidth="50"/>
+      <hotspot target="-172.6/-1.6/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="48" tilt="-8.95" pan="-258" use3D="0" url="{node11}" id="Point02" skinid="ht_node" fov="10" distance3D="274.321" title="DCIM\100GOPRO\GS__0093.JPG" customimagewidth="48"/>
+      <hotspot target="-90.9/-3.8/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="54" tilt="-23.75" pan="-86.82" use3D="0" url="{node14}" id="Point03" skinid="ht_node" fov="10" distance3D="308.611" title="DCIM\100GOPRO\GS__0096.JPG" customimagewidth="54"/>
+      <hotspot target="-101.5/-8.4/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="47" tilt="-11.97" pan="-88.76" use3D="0" url="{node15}" id="Point04" skinid="ht_node" fov="10" distance3D="268.606" title="DCIM\100GOPRO\GS__0097.JPG" customimagewidth="47"/>
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-296.13/-16.71|-302.23/-20.27|-302.21/8.15|-295.73/6.71</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+      <polyhotspot target="_blank" description="" url="" id="Poly02" title="">
         <polystring>-303.43/8.67|-313.65/10.74|-313.72/-25.99|-303.13/-20.99</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="Poly03" title="">
         <polystring>-314.93/-26.14|-314.87/10.81|-331.89/13.97|-332.01/-32</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly04">
+      <polyhotspot target="_blank" description="" url="" id="Poly04" title="">
         <polystring>-334.46/-32.32|-333.94/14.12|-359.28/15.82|-359.68/-35.39</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly05">
+      <polyhotspot target="_blank" description="" url="" id="Poly05" title="">
         <polystring>-2.15/-34.87|-27.54/-32.28|-27.23/13.85|-1.76/16.11</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly06">
+      <polyhotspot target="_blank" description="" url="" id="Poly06" title="">
         <polystring>-116.09/-26.7|-127.55/-34.66|-129.1/12.57|-117.85/9.67</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly07">
+      <polyhotspot target="_blank" description="" url="" id="Poly07" title="">
         <polystring>-130.2/13.03|-152.89/17.81|-151.93/-44.86|-127.86/-34.22</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly08">
+      <polyhotspot target="_blank" description="" url="" id="Poly08" title="">
         <polystring>-153.42/-45.82|-154.15/18.54|-192.45/19.85|-192.76/-48.6</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly09">
+      <polyhotspot target="_blank" description="" url="" id="Poly09" title="">
         <polystring>-193.54/-47.31|-193.71/20.05|-224.61/14.94|-225.95/-39.25</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly10">
+      <polyhotspot target="_blank" description="" url="" id="Poly10" title="">
         <polystring>-227.05/-38.57|-225.03/14.58|-240.47/10.09|-241.4/-30.19</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly11">
+      <polyhotspot target="_blank" description="" url="" id="Poly11" title="">
         <polystring>-241.8/-28.67|-240.97/10.27|-248.61/8.03|-249.53/-22.18|-249.37/-23.15</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly12">
+      <polyhotspot target="_blank" description="" url="" id="Poly12" title="">
         <polystring>-249.82/-22.25|-253.92/-18.19|-253.22/5.93|-248.77/7.68</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly13">
+      <polyhotspot target="_blank" description="" url="" id="Poly13" title="">
         <polystring>-253.55/5.99|-256.14/4.61|-257.14/-15.29|-254.17/-18.01</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly14">
+      <polyhotspot target="_blank" description="" url="" id="Poly14" title="">
         <polystring>-51.63/10.05|-60.13/8.49|-60.67/-19.77|-51.72/-24.11</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:23" tags="LIB ph2" title="DCIM\100GOPRO\GS__0096.JPG" description="" longitude="" latitude="" heading="0" nodeid="node14" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="93.2/-5.4/70.0" pan="-273.75" title="DCIM\100GOPRO\GS__0095.JPG" description="" url="{node13}" id="Point01" skinid="ht_node" tilt="-29.07"/>
-      <hotspot target="102.7/-10.0/70.0" pan="-272.09" title="DCIM\100GOPRO\GS__0094.JPG" description="" url="{node12}" id="Point02" skinid="ht_node" tilt="-13.4"/>
-      <hotspot target="-81.3/-2.5/70.0" pan="-87.47" title="DCIM\100GOPRO\GS__0097.JPG" description="" url="{node15}" id="Point03" skinid="ht_node" tilt="-25.77"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+    <userdata source="" nodeid="node14" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:23" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0096.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="93.2/-5.4/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="53" tilt="-29.07" pan="-273.75" use3D="0" url="{node13}" id="Point01" skinid="ht_node" fov="10" distance3D="302.896" title="DCIM\100GOPRO\GS__0095.JPG" customimagewidth="53"/>
+      <hotspot target="102.7/-10.0/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="34" tilt="-13.4" pan="-272.09" use3D="0" url="{node12}" id="Point02" skinid="ht_node" fov="10" distance3D="194.311" title="DCIM\100GOPRO\GS__0094.JPG" customimagewidth="34"/>
+      <hotspot target="-81.3/-2.5/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="59" tilt="-25.77" pan="-87.47" use3D="0" url="{node15}" id="Point03" skinid="ht_node" fov="10" distance3D="337.187" title="DCIM\100GOPRO\GS__0097.JPG" customimagewidth="59"/>
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-231.62/14.44|-243.61/10.12|-243.79/-26.23|-232.83/-33.51</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+      <polyhotspot target="_blank" description="" url="" id="Poly02" title="">
         <polystring>-231.62/-33.73|-207.79/-43.62|-206.95/19.1|-231.07/14.58</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="Poly03" title="">
         <polystring>-205.44/20.59|-206.5/-43.8|-167.12/-45.89|-167.22/20.66</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly04">
+      <polyhotspot target="_blank" description="" url="" id="Poly04" title="">
         <polystring>-165.52/20.96|-166.49/-45.55|-136.95/-37.29|-137/15.96</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly05">
+      <polyhotspot target="_blank" description="" url="" id="Poly05" title="">
         <polystring>-122.73/-28.89|-122.57/11.5|-114.66/8.8|-114.4/-22.58</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly06">
+      <polyhotspot target="_blank" description="" url="" id="Poly06" title="">
         <polystring>-113.76/-21.34|-109.18/-17.56|-109.24/6.93|-114.37/8.78</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly07">
+      <polyhotspot target="_blank" description="" url="" id="Poly07" title="">
         <polystring>-109/-17.9|-105.81/-14.38|-105.69/5.44|-108.82/6.9</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly08">
+      <polyhotspot target="_blank" description="" url="" id="Poly08" title="">
         <polystring>-72.96/-16.03|-83.71/-16.66|-83.8/6.05|-73.5/5.93</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly09">
+      <polyhotspot target="_blank" description="" url="" id="Poly09" title="">
         <polystring>-53.41/-25.51|-62.22/-20.91|-61.46/7.28|-52.16/9.49</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly10">
+      <polyhotspot target="_blank" description="" url="" id="Poly10" title="">
         <polystring>-35.11/12.04|-50.25/9.68|-51.58/-26.46|-35.64/-32.78</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly11">
+      <polyhotspot target="_blank" description="" url="" id="Poly11" title="">
         <polystring>-336.75/12.9|-3.45/14.47|-4.38/-37.85|-336.71/-34.81</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly12">
+      <polyhotspot target="_blank" description="" url="" id="Poly12" title="">
         <polystring>-7.3/-37.55|-7.37/14.34|-32.2/12.5|-33.17/-33.67</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly13">
+      <polyhotspot target="_blank" description="" url="" id="Poly13" title="">
         <polystring>-301.97/-21.06|-311.35/-26.19|-311.31/9.56|-302.24/7.54</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node15">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:25" tags="LIB ph2" title="DCIM\100GOPRO\GS__0097.JPG" description="" longitude="" latitude="" heading="0" nodeid="node15" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="95.7/-5.1/70.0" pan="-277.86" title="DCIM\100GOPRO\GS__0096.JPG" description="" url="{node14}" id="Point01" skinid="ht_node" tilt="-30.71"/>
-      <hotspot target="99.2/-6.6/70.0" pan="-275.56" title="DCIM\100GOPRO\GS__0095.JPG" description="" url="{node13}" id="Point02" skinid="ht_node" tilt="-16.4"/>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly01">
+    <userdata source="" nodeid="node15" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:25" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0097.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+      <hotspot target="95.7/-5.1/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="53" tilt="-30.71" pan="-277.86" use3D="0" url="{node14}" id="Point01" skinid="ht_node" fov="10" distance3D="302.896" title="DCIM\100GOPRO\GS__0096.JPG" customimagewidth="53"/>
+      <hotspot target="99.2/-6.6/70.0" customimage="media/kisspng-arrow-computer-icons-logo-white-down-arrow-png-5ab1bd5cde13f0.7986932615215977889096.png" description="" customimageheight="40" tilt="-16.4" pan="-275.56" use3D="0" url="{node13}" id="Point02" skinid="ht_node" fov="10" distance3D="228.601" title="DCIM\100GOPRO\GS__0095.JPG" customimagewidth="40"/>
+      <polyhotspot target="_blank" description="" url="" id="Poly01" title="">
         <polystring>-63.72/10.22|-81.7/11.06|-80.98/-28.47|-63.3/-25.49</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly02">
+      <polyhotspot target="_blank" description="" url="" id="Poly02" title="">
         <polystring>-118.62/7.94|-128.38/10.69|-129.16/-31.44|-118.72/-24.28</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly03">
+      <polyhotspot target="_blank" description="" url="" id="Poly03" title="">
         <polystring>-129.3/-31.45|-129.35/11.07|-148.29/15.14|-147.43/-40.39|-148.56/-40.97</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly04">
+      <polyhotspot target="_blank" description="" url="" id="Poly04" title="">
         <polystring>-149.59/15.76|-182.53/19.16|-183.18/-46.7|-148.03/-40.44</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly05">
+      <polyhotspot target="_blank" description="" url="" id="Poly05" title="">
         <polystring>-216.83/-40.75|-237.47/-31.99|-235.79/12.04|-216.15/16.34</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly06">
+      <polyhotspot target="_blank" description="" url="" id="Poly06" title="">
         <polystring>-238.6/-31.27|-248.47/-24.93|-246.49/9.22|-236.54/12.02</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly07">
+      <polyhotspot target="_blank" description="" url="" id="Poly07" title="">
         <polystring>-249.13/-23.03|-246.94/8.94|-253.37/7.06|-253.96/-19.15</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly08">
+      <polyhotspot target="_blank" description="" url="" id="Poly08" title="">
         <polystring>-305.66/-20.95|-315.79/-26.72|-315.48/11.62|-305.43/8.67</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly09">
+      <polyhotspot target="_blank" description="" url="" id="Poly09" title="">
         <polystring>-317.29/11.31|-334.51/14.65|-334.46/-32.82|-317.11/-27.15</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly10">
+      <polyhotspot target="_blank" description="" url="" id="Poly10" title="">
         <polystring>-337.47/-33.62|-337.63/15.3|-5.16/16.41|-5/-37.02</polystring>
       </polyhotspot>
-      <polyhotspot target="_blank" title="" description="" url="" id="Poly11">
+      <polyhotspot target="_blank" description="" url="" id="Poly11" title="">
         <polystring>-9.09/-36.33|-9.87/16.23|-35.3/14.2|-35.18/-33.27</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node16">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:26" tags="LIB ph2" title="DCIM\100GOPRO\GS__0098.JPG" description="" longitude="" latitude="" heading="0" nodeid="node16" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
+    <userdata source="" nodeid="node16" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:26" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0098.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node17">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:32" tags="LIB ph2" title="DCIM\100GOPRO\GS__0099.JPG" description="" longitude="" latitude="" heading="0" nodeid="node17" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
+    <userdata source="" nodeid="node17" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:32" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0099.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <panorama id="node18">
-    <input levelbias="0.400" levelingpitch="0" width="1440" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" height="1440" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
-      <level width="1440" predecode="0" height="1440" preload="0"/>
-      <level width="720" predecode="0" height="720" preload="0"/>
-      <level width="360" predecode="1" height="360" preload="1"/>
+    <input levelbias="0.400" levelingpitch="0" levelingroll="0" height="1440" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="1440" width="1440" predecode="0" preload="0"/>
+      <level height="720" width="720" predecode="0" preload="0"/>
+      <level height="360" width="360" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
     </view>
-    <userdata author="" copyright="" source="" info="" datetime="21-04-2022 15:33" tags="LIB ph2" title="DCIM\100GOPRO\GS__0100.JPG" description="" longitude="" latitude="" heading="0" nodeid="node18" customnodeid="" comment=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label border="1" width="180" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
+    <userdata source="" nodeid="node18" customnodeid="" description="" copyright="" info="" datetime="21-04-2022 15:33" heading="0" tags="LIB ph2" latitude="" longitude="" author="" comment="" title="DCIM\100GOPRO\GS__0100.JPG"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" border="1" borderradius="1" wordwrap="1" width="180" borderalpha="1" enabled="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" background="1" bordercolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomout="0" zoomin="2" zoomoutpause="0" blendcolor="0x000000" enabled="1" zoomfov="12" zoomafterinfov="90" softedge="10" zoomspeed="3" zoomafteroutfov="20" type="crossdissolve"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextvr="1" lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" simulatemass="1" contextprojections="0"/>
+    <transition zoomoutpause="0" zoomin="2" zoomout="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" softedge="10" zoomafteroutfov="20" enabled="1" zoomfov="12" zoomafterinfov="90" zoomspeed="3"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextvr="1" dblclickfullscreen="0" contextfullscreen="1" hideabout="0" sensitivity="8" invertcontrol="1" invertwheel="0" simulatemass="1" lockedwheel="0" contextprojections="0"/>
   </panorama>
   <masternode>
-    <userdata author="" copyright="" source="" info="" datetime="" tags="" title="" description="" longitude="" latitude="" heading="0" nodeid="master" customnodeid="" comment=""/>
+    <userdata source="" nodeid="master" customnodeid="" description="" copyright="" info="" datetime="" heading="0" tags="" latitude="" longitude="" author="" comment="" title=""/>
   </masternode>
 </tour>

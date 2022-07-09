@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+
+<style>#{text-align: center;}img{width: 20%;}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40%;
+  /*width: 40%;*/
 }
 
 .card:hover {
@@ -33,7 +34,7 @@ $rest = substr($_SERVER['REQUEST_URI'], -5, 1);
   $sql = "SELECT * FROM `datasorted` WHERE `COL 1` LIKE $rest LIMIT 1";
   
   $result = $conn->query($sql);
-
+echo ' <div style="text-align: center;" >';
   if ($result->num_rows > 0) {
     echo '<h2>Book</h2>
 
@@ -43,12 +44,12 @@ $rest = substr($_SERVER['REQUEST_URI'], -5, 1);
     //  echo $row["COL3"]."<br>";'./imgs/filenamehtml-content-holder'+i+'.jpg'
       echo '<img src="./imgs/filenamehtml-content-holder'.$rest.'.jpg" alt="Avatar" style="width:30%">
             <div class="container">
-            <h4><b>'.$row["COL 4"].'</b></h4> <p>'.$row["COL3"].'</p> </div>';
+            <h4><b>'.$row["COL 1"].'</b></h4> <p>'.$row["COL3"].'</p><p>'.$row["Description"].'</p> </div>';
     }echo '</div>';
   } else {
     echo "0 results";
   }
-
+echo '</div>';
 
 ?>
 

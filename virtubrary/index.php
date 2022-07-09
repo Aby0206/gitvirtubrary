@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/ajcelogo.png" rel="icon">
   <link href="assets/img/lib2.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
